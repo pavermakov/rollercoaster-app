@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Roller Coaster App</title>
+    
+    <!-- jQUERY -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    
+    <!-- BOOTSTRAP -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    
+    <!-- ANGULAR.JS -->
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+    
+    <!-- OTHER STYLES -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+    <div class="container">
+        <!-- This is what the user sees, ng-view is substituted with html specified in the route -->
+        <div class="well" ng-controller="mainController">
+            <div ng-view=""></div>
+        </div>
+    </div>
+    
+    <!-- OTHER SCRIPTS -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

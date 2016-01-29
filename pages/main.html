@@ -1,0 +1,18 @@
+<div class="jumbotron">
+    <h1>Best Rides</h1>
+    <p>By Pavel Ermakov</p>
+</div>
+
+<div ng-repeat="coaster in coasters">
+    <div class="row coaster">
+        <div class="col-lg-2 col-md-6 col-sm-6 col-xs-10">
+            <img ng-src="{{ coaster.image }}" />
+        </div>
+        <div class="col-lg-10 col-md-6 col-sm-6 col-xs-6">
+            <h2>{{ coaster.name }}</h2>
+            <h4 class="brief">{{ coaster.location }}</h4>
+            <button class="btn btn-primary" ng-click="showInfo(coaster)">Learn More</button>
+        </div>
+    </div>
+</div>
+

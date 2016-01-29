@@ -1,0 +1,87 @@
+[
+    {
+        "name" : "Skyrush",
+        "location" : "Hershey Park, Hershey, PA, USA",
+        "open" : "May 26, 2012",
+        "manufacturer" : "Intamin",
+        "image" : "res/skyrush.jpg",
+        "logo" : "res/logos/skyrush_logo.jpg",
+        "pov" : "https://www.youtube.com/embed/FY8pcsSDup8",
+        "off_ride" : "https://www.youtube.com/embed/2uFwzoI_B_I",
+        "specs" : {
+            "height" : "213 ft (65 m)",
+            "length" : "3,600 ft (1,100 m)",
+            "drop_angle" : "85°",
+            "max_speed" : "75 mph (121 km/h)",
+            "num_inversions" : "0"
+        }
+    },
+    {
+        "name" : "Intimidator 305",
+        "location" : "Kings Dominion, Doswell, VA, USA",
+        "open" : "April 2, 2010",
+        "manufacturer" : "Intamin",
+        "image" : "res/intimidator305.jpg",
+        "logo" : "res/logos/intimidator305_logo.jpg",
+        "pov" : "https://www.youtube.com/embed/0WpNSImh6Z8",
+        "off_ride" : "https://www.youtube.com/embed/MPFQDiVqfHk",
+        "specs" : {
+            "height" : "305 ft (93 m)",
+            "length" : "5,100 ft (1,600 m)",
+            "drop_angle" : "85°",
+            "max_speed" : "90 mph (140 km/h)",
+            "num_inversions" : "0"
+        }
+    },
+    {
+        "name" : "Fury 325",
+        "location" : "Carowinds, Charlotte, SC, USA",
+        "open" : "March 28, 2015",
+        "manufacturer" : "Bolliger & Mabillard",
+        "image" : "res/fury325.jpg",
+        "logo" : "res/logos/fury325_logo.jpg",
+        "pov" : "https://www.youtube.com/embed/a5GZ1QOYdpk",
+        "off_ride" : "https://www.youtube.com/embed/f0pa4BpU9XI",
+        "specs" : {
+            "height" : "325 ft (99 m)",
+            "length" : "6,602 ft (2,012 m)",
+            "drop_angle" : "81°",
+            "max_speed" : "95 mph (153 km/h)",
+            "num_inversions" : "0"
+        }
+    },
+    {
+        "name" : "Smiler",
+        "location" : "Alton Towers, Staffordshire, United Kingdom",
+        "open" : "May 31, 2013",
+        "manufacturer" : "Gerstlauer",
+        "image" : "res/smiler.jpg",
+        "logo" : "res/logos/smiler_logo.png",
+        "pov" : "https://www.youtube.com/embed/qqN9PDS3hOc",
+        "off_ride" : "https://www.youtube.com/embed/WBpJ8GZCKkM",
+        "specs" : {
+            "height" : "72 ft (22 m)",
+            "length" : "1,170 ft (3,840 m)",
+            "drop_angle" : "98°",
+            "max_speed" : "52.8 mph (85.0 km/h)",
+            "num_inversions" : "14"
+        }
+    },
+    {
+        "name" : "Banshee",
+        "location" : "Kings Island, Mason, OH, USA",
+        "open" : "April 18, 2014",
+        "manufacturer" : "Bolliger & Mabillard",
+        "image" : "res/banshee.jpg",
+        "logo" : "res/logos/banshee_logo.jpg",
+        "pov" : "https://www.youtube.com/embed/yOTgWr0J1Bw",
+        "off_ride" : "https://www.youtube.com/embed/XoZYOhNuiV4",
+        "specs" : {
+            "height" : "167 ft (51 m)",
+            "length" : "4,124 ft (1,257 m)",
+            "drop_angle" : "55°",
+            "max_speed" : "68 mph (109 km/h)",
+            "num_inversions" : "7"
+        }
+    }
+]

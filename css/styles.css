@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(#eb4b4b,#c7a14a,#5b9d2b);
+    background-attachment: fixed; 
+}
+img{
+    width: 100%;
+
+}
+.logo{
+    max-width: 400px;   
+}
+.coaster{
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.brief{
+    color: #5a5959;   
+}
+
+.vid{
+    margin-top: 5px;   
+}
+
+.well{
+    margin-top: 10px;   
+    border-radius: 0px;
+    background: rgba(217, 224, 214, 0.46);
+    border: none;
+}
+
+.jumbotron{
+    background-color: inherit;   
+}
+
+.description > span {
+    background-color: red;  
+}
+#backButton{
+    margin-top: 10px;
+    text-align: center;
+}
+.btn{
+    border-radius: 0px;   
+}

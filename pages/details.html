@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-md-4">
+        <img ng-src="{{ coaster.logo }}" class="logo" />
+    </div>
+    <div class="col-md-8">
+        <div class="description">
+            <h4><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Opened on {{ coaster.open }} in {{ coaster.location }}</h4>
+            <h4><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Manufactured by {{ coaster.manufacturer }}</h4>
+            <h4><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> {{ coaster.specs.height }} tall</h4>
+            <h4><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> {{ coaster.specs.length }} long</h4>
+            <h4><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Drops at {{ coaster.specs.drop_angle }} angle</h4>
+            <h4><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Reaches the speed of {{ coaster.specs.max_speed }}</h4>
+            <h4><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Has {{ coaster.specs.num_inversions }} inversions</h4>
+        </div>
+    </div>
+</div>
+
+<h1>Videos</h1>
+
+<div class="row">
+    <div class="vid col-md-6">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width='560' height='315' ng-src="{{ povUrl }}" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="vid col-md-6">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width='560' height='315' ng-src="{{ offRideUrl }}" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<div id="backButton">
+    <button class="btn btn-primary btn-lg" ng-click="goBack()">Go Back</button>
+</div>
+
+
